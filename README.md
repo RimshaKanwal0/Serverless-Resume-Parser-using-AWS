@@ -21,8 +21,8 @@ This project allows users to upload resumes via a static website. The resumes ar
 ---
 
 ## 🧱 Architecture
+<img width="920" height="352" alt="architecture" src="https://github.com/user-attachments/assets/964da841-af2d-4672-a95f-7f9aa777b3d5" />
 
-![Architecture Diagram](architecture.png)
 
 ---
 
