@@ -73,7 +73,7 @@ etc
 
 
 
-**🙋‍♀️ Author
+**🙋‍♀️ Author**
 Rimsha Kanwal
-Email:** Rimshakanwal7110.com
-[GitHub:](https://github.com/RimshaKanwal0) [Rimsha](https://github.com/RimshaKanwal0)
+Email: Rimshakanwal7110.com
+[GitHub:](https://github.com/RimshaKanwal0) 
