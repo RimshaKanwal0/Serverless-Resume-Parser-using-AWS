@@ -75,5 +75,5 @@ etc
 
 **🙋‍♀️ Author**
 Rimsha Kanwal
-Email: Rimshakanwal7110.com
+Email: Rimshakanwal7110@gmail.com
 [GitHub:](https://github.com/RimshaKanwal0) 
