@@ -48,15 +48,8 @@ This project allows users to upload resumes via a static website. The resumes ar
 To query the extracted data in S3 via Athena, ensure:
 - You’ve created a table with `jsonserde` or Glue crawler
 - Your JSON files are stored under a single prefix like `processed/`
-
-```sql
-SELECT
-  json_extract_scalar(json, '$.Name') AS name,
-  json_extract_scalar(json, '$.Email') AS email,
-  json_extract_scalar(json, '$.Phone') AS phone
-FROM "resumebucketdb"."resumetable_json"
-WHERE json_extract_scalar(json, '$.Email') IS NOT NULL;
-
+etc
+**Save them in a File/sql**
 
 **📸 Screenshots
 Add screenshots of:**
