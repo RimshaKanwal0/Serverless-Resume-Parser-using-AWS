@@ -25,7 +25,6 @@ In the first version of this project, I took a local-first approach: drop a PDF 
 
 This project isn't about perfection. It's about learning, experimenting, and getting real with AWS services.
 
-For this next step, I wanted to see how this could work in a real backend environment. That meant introducing automation, event triggers, and cloud storage. The goal? Automate the entire resume parsing flow using serverless AWS tools.
 
 > ⚠️ **Note:** The PDF upload is still manual here (just drag and drop into S3), but everything after that—processing, extraction, storage—is fully automated. In production, uploads would be handled by apps or devices, but for this demo, I kept it simple.
 > 
