@@ -75,6 +75,7 @@ etc
 <img width="1920" height="981" alt="s3_uploads1" src="https://github.com/user-attachments/assets/4adaf809-b923-4e10-b7f0-f76b7a880aa2" />
 <img width="1920" height="972" alt="dynamodb_table" src="https://github.com/user-attachments/assets/49342191-96ae-442c-a751-50743844746c" />
 <img width="1920" height="975" alt="cloudwatch_logs" src="https://github.com/user-attachments/assets/12e29c66-0cd8-4cbe-931b-7423d1ca30fa" />
+<img width="1920" height="848" alt="Email" src="https://github.com/user-attachments/assets/58e8ebd5-8e2d-428f-86aa-3ce9d60e56fb" />
 
 
 
