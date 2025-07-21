@@ -6,7 +6,7 @@ This project allows users to upload resumes via a static website. The resumes ar
 
 ---
 
-## 🔧 Tech Stack
+##  Tech Stack
 
 | Service          | Description                                              |
 |------------------|----------------------------------------------------------|
@@ -19,14 +19,24 @@ This project allows users to upload resumes via a static website. The resumes ar
 | **Amazon CloudWatch** | Logs function execution and metrics                    |
 
 ---
+## Project Story & Real-World Motivation
 
-## 🧱 Architecture
+In the first version of this project, I took a local-first approach: drop a PDF resume into a folder, run a Python script, and save the extracted text to a file using AWS Textract. It was a great way to get hands-on with Textract and see what it could do—but let's be honest, it was all pretty manual.
+
+This project isn't about perfection. It's about learning, experimenting, and getting real with AWS services.
+
+For this next step, I wanted to see how this could work in a real backend environment. That meant introducing automation, event triggers, and cloud storage. The goal? Automate the entire resume parsing flow using serverless AWS tools.
+
+> ⚠️ **Note:** The PDF upload is still manual here (just drag and drop into S3), but everything after that—processing, extraction, storage—is fully automated. In production, uploads would be handled by apps or devices, but for this demo, I kept it simple.
+> 
+---
+## Architecture
 <img width="920" height="352" alt="architecture" src="https://github.com/user-attachments/assets/964da841-af2d-4672-a95f-7f9aa777b3d5" />
 
 
 ---
 
-## ⚙️ Workflow
+## Workflow
 
 1. **User Uploads** a resume via a static website or directly to S3 (`uploads/` folder).
 2. **Amazon S3** triggers **AWS Lambda**.
@@ -43,7 +53,7 @@ This project allows users to upload resumes via a static website. The resumes ar
 
 ---
 
-## 🧪 Sample Athena Query
+## Sample Athena Query
 
 To query the extracted data in S3 via Athena, ensure:
 - You’ve created a table with `jsonserde` or Glue crawler
@@ -51,17 +61,13 @@ To query the extracted data in S3 via Athena, ensure:
 etc
 **Save them in a File/sql**
 
-**📸 Screenshots
+**Screenshots
 Add screenshots of:**
 
 -Static website upload
-
 -S3 file structure
-
 -DynamoDB items
-
 -CloudWatch logs
-
 -Athena query result
 etc
 
@@ -73,7 +79,12 @@ etc
 
 
 
-**🙋‍♀️ Author**
+**Author**
 Rimsha Kanwal
 Email: Rimshakanwal7110@gmail.com
 [GitHub:](https://github.com/RimshaKanwal0) 
+
+**Contributing**
+Contributions, suggestions, and bug reports are welcome!
+Feel free to open an issue or submit a pull request.
+
